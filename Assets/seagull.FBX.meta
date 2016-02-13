@@ -1,14 +1,38 @@
 fileFormatVersion: 2
-guid: 6b91e5e625b1293448f061425d3b1e68
+guid: 1915a0b73a6338e41ab110ee74bbccbe
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cylinder001
+    100000: Bone011
+    100002: Bone012
+    100004: Bone013
+    100006: Bone014
+    100008: Bone015
+    100010: Bone021
+    100012: Bone022
+    100014: Bone023
+    100016: Bone024
+    100018: Bone025
+    100020: Cylinder002
+    100022: //RootNode
+    400000: Bone011
+    400002: Bone012
+    400004: Bone013
+    400006: Bone014
+    400008: Bone015
+    400010: Bone021
+    400012: Bone022
+    400014: Bone023
+    400016: Bone024
+    400018: Bone025
+    400020: Cylinder002
+    400022: //RootNode
+    4300000: Cylinder002
+    7400000: flap
+    7400002: Take 0010
     9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cylinder002
   materials:
     importMaterials: 1
     materialName: 0
@@ -19,23 +43,73 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationCompression: 1
-    animationRotationError: .5
+    animationRotationError: .680000007
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: flap
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 45.0000038
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone011
+        weight: 1
+      - path: Bone011/Bone012
+        weight: 1
+      - path: Bone011/Bone012/Bone013
+        weight: 1
+      - path: Bone011/Bone012/Bone013/Bone014
+        weight: 1
+      - path: Bone011/Bone012/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Bone021
+        weight: 1
+      - path: Bone021/Bone022
+        weight: 1
+      - path: Bone021/Bone022/Bone023
+        weight: 1
+      - path: Bone021/Bone022/Bone023/Bone024
+        weight: 1
+      - path: Bone021/Bone022/Bone023/Bone024/Bone025
+        weight: 1
+      - path: Cylinder002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .100000001
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -43,7 +117,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
+    splitTangentsAcrossUV: 0
     normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
@@ -60,6 +134,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   additionalBone: 0
   userData: 
